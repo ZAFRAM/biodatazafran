@@ -1,0 +1,157 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* CLEAR FIX */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+.cf {
+    *zoom: 1;
+}
+/* STYLE */
+.kotakutama {
+	width: 600px;
+	height: 500px;
+	background-color: #eaeaea;
+	margin: auto;
+}
+/* BIODATA NAMA */
+body {
+	background-color: #eaeaea;
+	text-align: center;
+}
+.background {
+	background-color: white;
+	width: 150px;
+	height: 500px;
+	padding: 0 10px;
+	margin-top: 10px;
+	float: left;
+	font-family: arial;
+	text-align: left;
+	border-right: 5px solid salmon;
+	box-sizing: border-box;	
+}
+.background img {
+}
+.isi {
+	margin-top: 20px;
+}
+.nama p {
+	color: salmon;
+	font-family: arial;
+	font-size: 10px;
+	margin-top: 0px;
+	margin-left: 30px;
+}
+.nama img {
+	float: left;
+}
+.telepon img {
+	float: left;
+}
+.telepon p {
+	color: salmon;
+	font-size: 13px;
+	margin-left: 30px;
+	margin-top: 1x;
+}
+.email img {
+	float: left;
+	margin-left: -4px;
+}
+.email p {
+	color: salmon;
+	font-size: 7.5px;
+}
+
+/* KOTAK 2 */
+.kotak2 {
+	background-color: white;
+	width: 420px;
+	height: 100px;
+	float: left;
+	margin: 10px 0 0 10px;
+	border-bottom: 5px solid salmon;
+}
+.kotak2 p {
+	font-family: arial;
+	font-size: 45px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+/* KOTAK 3 */
+.kotak3 {
+	background-color: white;
+	width: 420px;
+	height: 150px;
+	float: left;
+	margin: 10px 0 0 10px;
+	border-bottom: 5px solid salmon;
+}
+.kotak3 p {
+	font-family: arial;
+	font-size: 20px;
+	margin-top: 60px;
+}
+/* KOTAK 4 */
+.kotak4 {
+	float: left;
+	background-color: white;
+	width: 420px;
+	height: 220px;
+	margin: 10px 0 0 10px;
+	border-bottom: 5px solid salmon;
+}
+.kotak4 p {
+	font-family: arial;
+	font-size: 20px;
+	margin-top: 85px;
+	box-sizing: border-box;
+}
